@@ -12,6 +12,7 @@ public class Esercizio2 {
 			int k = s.nextInt();
 			double sm = 0;
 			for(int i=1;i<=n;i++) {
+				// sommatoria
 				sm = sm + k*(k*i);
 			}
 		System.out.println("La sommatoria di k è " + sm);
