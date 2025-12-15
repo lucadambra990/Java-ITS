@@ -18,44 +18,43 @@ public class ConversioneData {
 		
 		switch(mese) {
 		case 1:
-			System.out.println("Gennaio");
+			System.out.println(giorno + " Gennaio " + anno);
 			break;
 		case 2:
-			System.out.println("Febbraio");
+			System.out.println(giorno + " Febbraio " + anno);
 			break;
 		case 3:
-			System.out.println("Marzo");
+			System.out.println(giorno + " Marzo " + anno);
 			break;
 		case 4:
-			System.out.println("Aprile");
+			System.out.println(giorno + " Aprile " + anno);
 			break;
 		case 5:
-			System.out.println("Maggio");
+			System.out.println(giorno + " Maggio " + anno);
 			break;
 		case 6:
-			System.out.println("Giugno");
+			System.out.println(giorno + " Giugno " + anno);
 			break;
 		case 7:
-			System.out.println("Luglio");
+			System.out.println(giorno + " Luglio " + anno);
 			break;
 		case 8:
-			System.out.println("Agosto");
+			System.out.println(giorno + " Agosto " + anno);
 			break;
 		case 9:
-			System.out.println("Settembre");
+			System.out.println(giorno + " Settembre " + anno);
 			break;
 		case 10:
-			System.out.println("Ottobre");
+			System.out.println(giorno + " Ottobre " + anno);
 			break;
 		case 11:
-			System.out.println("Novembre");
+			System.out.println(giorno + " Novembre " + anno);
 			break;
 		case 12:
-			System.out.println("Dicembre");
+			System.out.println(giorno + " Dicembre " + anno);
 			break;
 		}
 		
-		System.out.println(giorno + mese + anno);
 	}
 
 }
