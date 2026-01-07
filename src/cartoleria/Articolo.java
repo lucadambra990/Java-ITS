@@ -1,17 +1,15 @@
 package cartoleria;
 
-public class Articolo {
+public abstract class Articolo {
 	private String marca;
 	private String modello;
-	private String colore;
 	private double costo;
 	private double prezzo;
 	
-	public Articolo(String marca, String modello, String colore, double costo, double prezzo) {
+	public Articolo(String marca, String modello,double costo, double prezzo) {
 		super();
 		this.marca = marca;
 		this.modello = modello;
-		this.colore = colore;
 		this.costo = costo;
 		this.prezzo = costo*2;
 	}
@@ -32,14 +30,6 @@ public class Articolo {
 		this.modello = modello;
 	}
 
-	public String getColore() {
-		return colore;
-	}
-
-	public void setColore(String colore) {
-		this.colore = colore;
-	}
-
 	public double getCosto() {
 		return costo;
 	}
@@ -54,7 +44,7 @@ public class Articolo {
 
 	@Override
 	public String toString() {
-		return "Articolo [marca=" + marca + ", modello=" + modello + ", colore=" + colore + ", costo=" + costo
+		return "Articolo [marca=" + marca + ", modello=" + modello + ", costo=" + costo
 				+ ", prezzo=" + prezzo + "]";
 	}
 	
